@@ -1,0 +1,34 @@
+body{
+	width: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#divButton {
+	position: relative;
+	width: 94%;
+	padding: 3%;
+	background: webkit-linear-gradient(#F70,#F30);
+	background: linear-gradient(#F70,#F30);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 2%;
+	display: inline-block;
+}
+
+#bodyText {
+	margin-bottom: 5%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 1.5em;
+	vertical-align: middle;
+	text-align: center;
+}
+/*scOrange = #F50
+scOrangeLight = #F70
+scOrangeDark = #F30*/

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "SCDL",
+  "description": "Downloads audio from soundcloud",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_title": "SCDL",
+    "default_icon": "soundcloud-icon.png",
+    "default_popup": "SCDL.html"
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs"
+  ]
+}
